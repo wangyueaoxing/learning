@@ -1,0 +1,17 @@
+html{
+	 font-family: Arial;
+     margin: 0 ;
+
+}
+.head{
+	font-weight: bold;
+}
+#con1 .head,#con2 .head{
+	margin-right:0.4em; 
+}
+.head+span{
+    margin-right:1.5em;
+}
+.head+p{
+	margin-top:-1em;
+}
