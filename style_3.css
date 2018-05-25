@@ -21,7 +21,7 @@ h1{
 }
 #h1,#h2,#h3,#h4,#h5{
   font-size:1.1em;
-  width:10%;
+  width:15%;
   height:150px;
   display:inline-block;
   box-sizing:border-box;
@@ -32,7 +32,7 @@ h1{
   border:1px solid rgb(240,240,240)
 }
 #con1,#con2,#con3,#con4,#con5{
-  width:90%;
+  width:85%;
   height:150px;
   display:inline-block;
   float:right;
