@@ -9,9 +9,7 @@ html{
 #con1 .head,#con2 .head{
 	margin-right:0.4em; 
 }
-.head+span{
-    margin-right:1.5em;
-}
-.head+p{
-	margin-top:-1em;
+#con1 .head+span,#con2 .head+span{margin-right:1.5em;}
+#con3 .head+span,#con4 .head+span,#con5 .head+span{
+    display: block;
 }
