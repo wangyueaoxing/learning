@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>day 7-8</title>
+	<style type="text/css">
+	    body{
+	    	font-family: sans-serif;
+		    box-sizing: border-box;
+		    margin: 0 auto;
+		    width: 100%;
+	    }
+	    a{
+	       text-decoration: none;
+	    }
+	    header{
+	    	background-color: rgb(40,40,40);
+			width: 100%;
+			height: 60px;
+	    }
+		.header {
+			margin:0 auto;
+			width: 960px;
+			color: white;
+		}
+		.header h2{ 
+            float: left;
+            padding-top: -5px;
+		}
+		.a {
+			margin-left: 790px;
+			
+		}
+		a:link    {color:white;}
+        a:visited {color:white;}
+        a:hover   {color:red;}
+        .banner{
+        	background-color: limegreen;
+        	width: 100%;
+        	height: 200px;
+        	position: relative;
+        }
+        .img{
+        	margin: ;
+        	position: absolute;
+        	bottom: 0;
+        	right: 300px;
+        }
+        .nav{
+        	width: 100%;
+        	height: 60px;
+        	display: flex;
+        	padding: 0;
+        	border-bottom: 1px solid lightgray;
+        }
+        .nav1{
+            flex:1;
+            margin:0;
+           height: 60px;
+        }
+        .menu{
+            margin-bottom: 0;
+        	width: 960px;
+        	height:60px;
+        }
+        .nav2{
+        	height: 60px;
+            margin:0;
+            flex:1;
+
+        }
+        .menu ul{
+        	margin-bottom: 0;
+        	margin-left: -40px;
+        	margin-top:11px; 
+        	float: left;
+        }
+        .menu li{
+            width: 100px;
+            text-align: center;
+            background-color: rgb(240,240,240);
+            border-radius: 35% 35% 0 0;
+            border: 1px solid lightgray;
+            list-style-type: none;
+            float: left;
+        }
+        .menu li a{
+        	line-height: 3;
+        	color: black;
+        }
+        .menu .sp{
+        	background-color: white;
+        	padding-top: 1px;
+        	border-bottom: 0;
+        }
+        .article{
+        	margin:0 auto;
+        	width: 960px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .article article{
+        	padding: 80px;
+        	border: 1px solid lightgray;
+        	margin:5px;
+        	flex: 1;
+
+        }
+        .article .change{
+        	font-size: 14px;
+        }
+        .footer{
+            width: 100%;
+            height: 120px;
+            background-color: rgb(120,120,120);
+        }
+        .footer p{
+        	text-align: center;
+        	color: white;
+        	padding-top: 15px;
+        }
+	</style>
+</head>
+<body>
+	<header>
+  	<div class="header">
+  	    <h2>Logo</h2>
+  	    <div class="a">
+  	      <a href="https://www.baidu.com">Github</a>
+  	      <a href="https://www.baidu.com">Register</a>
+  	      <a href="https://www.baidu.com">Login</a>
+  	    </div>
+    </div>
+    </header>
+    <div class="banner">
+    	<div class="img">
+    	    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527856331816&di=4ef64f6c079d2e6cbfefdba10af323b2&imgtype=0&src=http%3A%2F%2Fimage.tupian114.com%2F20140422%2F14224636.png.thumb.jpg" alt="1" width="20px" height="30px">
+    	    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527856676220&di=e14f232264119d5173818eb45467201e&imgtype=0&src=http%3A%2F%2Fimage.tupian114.com%2F20140422%2F14215206.png" alt="2" width="20px" height="50px">
+    	    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527856557123&di=428b2a710453ccbff4b769f9ca9b8adc&imgtype=0&src=http%3A%2F%2Fimage.tupian114.com%2F20140422%2F14252721.png" alt="3" width="20px" height="30px">
+    	    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527856572645&di=84758f031cf3798de9bf9d8bba05ebe2&imgtype=0&src=http%3A%2F%2Fimage.tupian114.com%2F20140422%2F14250984.png.thumb.jpg" alt="4" width="20px" height="30px">
+    	</div>
+    </div>
+    <div class="nav">
+    	<div class="nav1"></div>
+    	<div class="menu">
+    	  <ul>
+    		<li class="sp"><a href="#">HOME</a></li>
+    		<li><a href="#">PROFILE</a></li>
+    		<li><a href="#">ABOUT</a></li>
+    	  </ul>
+    	</div>
+    	<div class="nav2"></div>
+    </div>
+    <div class="article">
+        <article>This is Content 1</article>
+        <article>MaybeContent 2</article>
+        <article>Content 3</article>
+        <article class="change">Content 4</article>
+        <article class="change">Content 5</article>
+        <article class="change">Content 6</article>
+        <article class="change">Content 7</article>
+        <article class="change">Content 8</article>
+        <article class="change">Content 9</article>
+        <article class="change">Content 10</article>
+    </div>
+    <div class="footer">
+    	<p>© 2018 ife.baidu.com</p>
+    </div>
+</body>
+</html>
